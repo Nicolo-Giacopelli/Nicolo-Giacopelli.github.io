@@ -4494,7 +4494,7 @@ dl.accordion.time-line:before {
 
 
 .fa {
-  padding: 2px;
+  padding: 3px;
   font-size: 30px;
   text-decoration: none;
 }
@@ -4504,17 +4504,48 @@ dl.accordion.time-line:before {
   opacity: 0.7;
 }
 
+
 ul.icons {
   cursor: default;
   list-style: none;
   padding-left: 0;
+  color: #8490ff;
+  display: inline-block;
+  vertical-align: top;
 }
 
 ul.icons li {
   display: inline-block;
-  padding: 0 1rem 0 0;
-  vertical-align: middle;
+  padding: 0 0.6rem 0 0;
+  vertical-align: top;
 }
+
+ul.icons li:last-child {
+  padding-right: 0;
+}
+
+ul.icons li .icon:before {
+  width: 2.25rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  display: flex;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 1.25rem;
+}
+
+a.fa {
+  padding: 0px 3px 5px 0px;
+  text-decoration: none;
+  display: inline-block;
+
+
+  font-size: 21px;
+
+  outline: none;
+}
+
+
 
 
 /* =================================== */
